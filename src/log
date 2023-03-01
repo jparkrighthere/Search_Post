@@ -1,37 +1,0 @@
-Script started on 2023-02-23 05:41:38+00:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="169" LINES="65"]
-[?2004h]0;jpark634@jeonghyeonpark: ~/Project1_jeonghyeon[01;32mjpark634@jeonghyeonpark[00m:[01;34m~/Project1_jeonghyeon[00m$ [7mrm -f *.class[27mrm -f *.class
-[?2004l[?2004h]0;jpark634@jeonghyeonpark: ~/Project1_jeonghyeon[01;32mjpark634@jeonghyeonpark[00m:[01;34m~/Project1_jeonghyeon[00m$ [7mjavac *.java[27mjavac *.java
-[?2004lNote: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-[?2004h]0;jpark634@jeonghyeonpark: ~/Project1_jeonghyeon[01;32mjpark634@jeonghyeonpark[00m:[01;34m~/Project1_jeonghyeon[00m$ java [7mBackendDeveloper_Tests[27mBackendDeveloper_Tests
-[?2004lIndividual Test 1 passed: true
-Individual Test 2 passed: true
-Individual Test 3 passed: true
-Individual Test 4 passed: true
-Individual Test 5 passed: true
-FrontEnd Test 1 passed: true
-FrontEnd Test 2 passed: true
-java.io.FileNotFoundException: data/fake.txt (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.util.Scanner.<init>(Scanner.java:639)
-	at PostReaderDW.readPostsFromFile(PostReaderDW.java:30)
-	at CHSearchBackendBD.loadData(CHSearchBackendBD.java:41)
-	at BackendDeveloper_Tests.test8(BackendDeveloper_Tests.java:238)
-	at BackendDeveloper_Tests.main(BackendDeveloper_Tests.java:310)
-Integration Test 1 passed: false
-java.io.FileNotFoundException: data/fake.txt (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.util.Scanner.<init>(Scanner.java:639)
-	at PostReaderDW.readPostsFromFile(PostReaderDW.java:30)
-	at CHSearchBackendBD.loadData(CHSearchBackendBD.java:41)
-	at BackendDeveloper_Tests.test9(BackendDeveloper_Tests.java:273)
-	at BackendDeveloper_Tests.main(BackendDeveloper_Tests.java:311)
-Integration Test 2 passed: false
-[?2004h]0;jpark634@jeonghyeonpark: ~/Project1_jeonghyeon[01;32mjpark634@jeonghyeonpark[00m:[01;34m~/Project1_jeonghyeon[00m$ exit
-[?2004lexit
-
-Script done on 2023-02-23 05:42:11+00:00 [COMMAND_EXIT_CODE="0"]
