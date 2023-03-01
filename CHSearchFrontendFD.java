@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Provide a text-based user interface to the searching capaibilities of the
  * CHSearchApplication.
  * 
- * @author FrontendDeveloper, courtesy of the CS400 course staff.
+ * @author FrontendDeveloper
  */
 public class CHSearchFrontendFD implements CHSearchFrontendInterface {
 	private Scanner userInput;
