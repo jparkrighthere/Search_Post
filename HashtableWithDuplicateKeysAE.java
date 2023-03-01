@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * 
  * This class builds on top of the P1W2 HashtableMap implementation.
  * 
- * @author AlgorithmEngineer, courtesy of the CS400 course staff.
+ * @author AlgorithmEngineer
  */
 public class HashtableWithDuplicateKeysAE<KeyType, ValueType> extends HashtableMap<KeyType, List<ValueType>>
 implements HashtableWithDuplicateKeysInterface<KeyType, ValueType> {
