@@ -3,7 +3,6 @@ import java.util.Scanner;
 /**
  * Main entry point for starting and running the CHSearch App.
  * 
- * @author AlgorithmEngineer, courtesy of the CS400 course staff.
  */
 public class CHSearchApp {
 	public static void main(String[] args) {
